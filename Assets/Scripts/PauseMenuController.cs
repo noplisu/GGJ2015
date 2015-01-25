@@ -13,6 +13,11 @@ public class PauseMenuController : MonoBehaviour {
 		}
 	}
 
+	public void restart()
+	{
+		Application.LoadLevel (Application.loadedLevel);
+	}
+
 	public void resume()
 	{
 		Time.timeScale = 1f;
