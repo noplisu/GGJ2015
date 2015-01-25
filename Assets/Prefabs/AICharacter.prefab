@@ -2508,11 +2508,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c5335f0882fe4d478883cc8c58ce906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Vendor/SampleAssets/Characters/ThirdPersonCharacter/Prefabs/AICharacter.prefab
-  targetChangeTolerance: .100000001
-=======
+:Assets/Vendor/SampleAssets/Characters/ThirdPersonCharacter/Prefabs/AICharacter.prefab
   targetChangeTolerance: 1
->>>>>>> c8204205b54d7422c8f162e56948dfc5ccbc3a6a:Assets/Prefabs/AICharacter.prefab
+ :Assets/Prefabs/AICharacter.prefab
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
