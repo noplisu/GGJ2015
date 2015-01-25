@@ -83,7 +83,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   door: {fileID: 0}
   inactiveMaterial: {fileID: 2100000, guid: f95f27b7483b42f4fb6c14570465ea58, type: 2}
-  activatedMaterial: {fileID: 2100000, guid: 056ff42626508264585fbcb505305c18, type: 2}
+  activatedMaterial: {fileID: 2100000, guid: ccac7edf49cd46842aab220707b318c4, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

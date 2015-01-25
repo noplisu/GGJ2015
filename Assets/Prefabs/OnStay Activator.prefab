@@ -81,9 +81,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c364932aeef7b6b4191e43a7fa174010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activated: 0
+  activatedMaterial: {fileID: 2100000, guid: 6cf28b655d0a2374587c1fb5f34d86be, type: 2}
   inactiveMaterial: {fileID: 2100000, guid: f95f27b7483b42f4fb6c14570465ea58, type: 2}
-  activatedMaterial: {fileID: 2100000, guid: 056ff42626508264585fbcb505305c18, type: 2}
+  activated: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
