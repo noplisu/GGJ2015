@@ -20,4 +20,12 @@
 *.PDF  diff=astextplain
 *.rtf  diff=astextplain
 *.RTF  diff=astextplain
+*.jpg  diff=astextplain
+*.JPG  diff=astextplain
+*.png  diff=astextplain
+*.PNG  diff=astextplain
+*.tga  diff=astextplain
+*.TGA  diff=astextplain
+*.fbx  diff=astextplain
+*.FBX  diff=astextplain
 

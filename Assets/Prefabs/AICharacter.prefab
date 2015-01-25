@@ -2508,7 +2508,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c5335f0882fe4d478883cc8c58ce906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
   targetChangeTolerance: 1
 --- !u!114 &11400004
 MonoBehaviour:
@@ -2548,6 +2547,8 @@ MonoBehaviour:
   crouchCheckMask:
     serializedVersion: 2
     m_Bits: 4294967295
+  lookBlendTime: 0
+  lookWeight: 0
 --- !u!136 &13600000
 CapsuleCollider:
   m_ObjectHideFlags: 1
