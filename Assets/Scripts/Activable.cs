@@ -26,7 +26,6 @@ public class Activable : MonoBehaviour {
 		for (int i = 0; i<activators.Length; i++) {
 			if(!activators[i].active())
 			{
-				print(activators[i].active());
 				fails++;
 			}
 		}
