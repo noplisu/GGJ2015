@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[ExecuteInEditMode]
 public class Activable : MonoBehaviour {
 
 	public Activator[] activators;
@@ -14,6 +15,7 @@ public class Activable : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		animator = GetComponent<Animator> ();
+		renderer.material.color = color;
 		for (int i = 0; i<activators.Length; i++) {
 			activators[i].inactiveMaterial.color = color;
 		}

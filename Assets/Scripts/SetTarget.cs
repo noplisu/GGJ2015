@@ -17,6 +17,7 @@ public class SetTarget : MonoBehaviour {
       RaycastHit hitInfo;
       Physics.Raycast(ray, out hitInfo);
       agent = character.current.GetComponent<AICharacterControl>();
+			print (hitInfo.point);
       agent.SetTarget(hitInfo.point);
     }
   }

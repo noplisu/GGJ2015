@@ -26,7 +26,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 191952}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.3599999, y: .100000001, z: 2.98000002}
+  m_LocalPosition: {x: 44.8187752, y: .100000001, z: 35.0118828}
   m_LocalScale: {x: 1, y: .200000003, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -82,7 +82,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 0}
-  inactiveMaterial: {fileID: 2100000, guid: f95f27b7483b42f4fb6c14570465ea58, type: 2}
+  inactiveMaterial: {fileID: 2100000, guid: f92a148febba0d0488e0b1cc7d85ddb0, type: 2}
   activatedMaterial: {fileID: 2100000, guid: ccac7edf49cd46842aab220707b318c4, type: 2}
 --- !u!1001 &100100000
 Prefab:
