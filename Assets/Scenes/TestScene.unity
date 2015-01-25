@@ -1228,7 +1228,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 454350, guid: 1ec5de90241902f4f844fd522d5b2e8d, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5454350, guid: 1ec5de90241902f4f844fd522d5b2e8d, type: 2}
       propertyPath: m_Mass
@@ -10946,7 +10946,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!23 &2095428755
 Renderer:
