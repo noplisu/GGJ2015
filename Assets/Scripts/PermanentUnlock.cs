@@ -12,6 +12,7 @@ public class PermanentUnlock : MonoBehaviour {
 	void Start()
 	{
 		renderer = GetComponent<MeshRenderer> ();
+		inactiveMaterial.color = door.color;
 	}
 	
 	void FixedUpdate()

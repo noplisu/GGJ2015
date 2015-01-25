@@ -9,9 +9,14 @@ public class Activable : MonoBehaviour {
 	public int maxFails = 0;
 	public bool force = false;
 
+	public Color color;
+
 	// Use this for initialization
 	void Start () {
 		animator = GetComponent<Animator> ();
+		for (int i = 0; i<activators.Length; i++) {
+			activators[i].inactiveMaterial.color = color;
+		}
 	}
 	
 	// Update is called once per frame
