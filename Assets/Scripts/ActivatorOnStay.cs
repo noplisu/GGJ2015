@@ -5,8 +5,6 @@ public class ActivatorOnStay : Activator {
 
 	public bool activated = false;
 	MeshRenderer renderer;
-	public Material inactiveMaterial;
-	public Material activatedMaterial;
 
 	void Start()
 	{

@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class CameraMovement : MonoBehaviour {
-  public float speed = 1.0f;
+  public float speed = 15.0f;
 
   // Use this for initialization
   void Start () {

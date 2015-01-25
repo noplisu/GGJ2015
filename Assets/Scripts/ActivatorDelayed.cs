@@ -5,8 +5,6 @@ public class ActivatorDelayed : Activator {
 
 	public bool activated = false;
 	MeshRenderer renderer;
-	public Material inactiveMaterial;
-	public Material activatedMaterial;
 	float delay = 0;
 	public float delayAdded = 0;
 
