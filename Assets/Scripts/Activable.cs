@@ -9,15 +9,18 @@ public class Activable : MonoBehaviour {
 	bool active;
 	public int maxFails = 0;
 	public bool force = false;
+	public Material material;
 
 	public Color color;
 
 	// Use this for initialization
 	void Start () {
 		animator = GetComponent<Animator> ();
-		renderer.material.color = color;
+		material = new Material(renderer.material);
+		material.color = color;
+		renderer.material = material;
 		for (int i = 0; i<activators.Length; i++) {
-			activators[i].inactiveMaterial.color = color;
+			activators[i].inactiveMaterial = material;
 		}
 	}
 	
