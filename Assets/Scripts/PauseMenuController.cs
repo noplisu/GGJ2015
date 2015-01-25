@@ -27,6 +27,7 @@ public class PauseMenuController : MonoBehaviour {
 
 	public void mainMenu()
 	{
+		Time.timeScale = 1f;
 		Application.LoadLevel(0);
 	}
 	
