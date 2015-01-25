@@ -15,6 +15,7 @@ public class PauseMenuController : MonoBehaviour {
 
 	public void restart()
 	{
+		Time.timeScale = 1f;
 		Application.LoadLevel (Application.loadedLevel);
 	}
 
