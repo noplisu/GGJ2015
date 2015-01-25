@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class PauseMenuController : MonoBehaviour {
-	GameObject pauseMenu;
+	public GameObject pauseMenu;
 
 	void Update()
 	{

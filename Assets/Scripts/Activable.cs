@@ -27,7 +27,6 @@ public class Activable : MonoBehaviour {
 		}
 		if (fails > maxFails)
 			active = false;
-		print (fails);
 		if (force)
 			active = true;
 		animator.SetBool ("DoorOpen", active);
